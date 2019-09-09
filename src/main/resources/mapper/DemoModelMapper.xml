@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace = "cn.miki.db.mapper.DemoModelMapper" >
+    <resultMap id="demoModel" type="cn.miki.db.pojo.DemoModel">
+        <id     column="id"                 property="id"         />
+        <result column="name"               property="name"       />
+        <result column="age"                property="age"        />
+    </resultMap>
+    <select id = "selectById"  resultMap="demoModel">
+        select id,name,age from demo_model
+    </select>
+
+</mapper>
