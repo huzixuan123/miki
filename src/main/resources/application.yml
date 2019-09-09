@@ -33,3 +33,9 @@ exception:
     ding-talk:
       web-hook: https://oapi.dingtalk.com/robot/send?access_token=6351f4062c8c2d286ce872e0215f9497866a11734f53e70e0616e442a8baf56d
       at-phones: 13027204364
+miki:
+  abc:
+    username: root
+    password: admin
+    son-properties:
+      name: hahaha
